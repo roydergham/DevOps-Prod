@@ -1,0 +1,35 @@
+IP Address, Hostname, Uptime, Current_Version, Current_Image, Serial_Number, Device_Model, Device_Memory
+10.30.99.70, PACT-CORE-VSS, 18 weeks 2 days 2 hours 29 minutes, 17.3.4, bootflash:packages.conf, FDO25301A6P, C9500-24Y4C, 2904230K/6147K
+10.30.99.71, Edge1-GF, 16 weeks 20 hours 28 minutes, 17.3.4b, flash:packages.conf, JAD23441540, C9200L-48P-4X, 523499K/3071K
+10.30.99.72, Edge2-B4Parking, 17 weeks 23 hours 46 minutes, 17.3.4b, flash:packages.conf, JAD234415JB, C9200L-48P-4X, 523451K/3071K
+10.30.99.73, Edge3-B4Lobby, 16 weeks 19 hours 36 minutes, 17.3.4b, flash:packages.conf, JAD235002XK, C9200L-48P-4X, 523451K/3071K
+10.30.99.74, Edge4-B1Lobby, 16 weeks 19 hours 24 minutes, 17.3.4b, flash:packages.conf, JAD2350034K, C9200L-48P-4X, 523451K/3071K
+10.30.99.75, Edge5-B1Parking, 15 weeks 6 days 22 hours 44 minutes, 17.3.4b, flash:packages.conf, JAD234414ZZ, C9200L-48P-4X, 524851K/3071K
+10.30.99.76, Edge6-F4, 16 weeks 6 days 23 hours 19 minutes, 17.3.4b, flash:packages.conf, JAD23500K8W, C9200L-48P-4X, 523447K/3071K
+10.30.99.77, Edge7-Roof, 16 weeks 20 hours 50 minutes, 17.3.4b, flash:cat9k_lite_iosxe.17.03.04b.SPA.bin, JAD2350032W, C9200L-48P-4X, 523499K/3071K
+10.30.99.78, Edge8-B1ControlRoom, 16 weeks 18 hours 40 minutes, 17.3.4b, flash:packages.conf, JAD235002Y8, C9200L-48P-4X, 523451K/3071K
+10.30.99.79, Edge9-PedEnt, 3 weeks 23 hours 49 minutes, 16.9.4, flash:packages.conf, JAD234415CM, C9200L-48P-4X, 519008K/3071K
+10.30.99.80, Edge10-F2DC, 15 weeks 6 days 2 hours 30 minutes, 17.3.4b, flash:packages.conf, JAD235002XF, C9200L-48P-4X, 524851K/3071K
+10.30.99.1, sw-core, 1 year 47 weeks 4 days 14 hours 45 minutes, 16.12.3a, bootflash:packages.conf, CAT2404L4LB, C9500-48Y4C, 1867991K/6147K
+10.30.99.2, SW-DC-01, 2 years 13 weeks 5 days 4 hours 23 minutes, 15.2(4)E10, bootflash:cat4500e-ipbasek9-mz.152-4.E10.bin, CAT1742S4A3, WS-C4948E-F, 1048576K
+10.30.99.3, SW-DC-02, 2 years 13 weeks 5 days 4 hours 30 minutes, 15.2(4)E10, bootflash:cat4500e-ipbasek9-mz.152-4.E10.bin, CAT1742S49H, WS-C4948E-F, 1048576K
+10.30.99.4, SW-DC-03, 2 years 13 weeks 5 days 4 hours 39 minutes, 15.2(4)E10, bootflash:cat4500e-ipbasek9-mz.152-4.E10.bin, CAT1742S46T, WS-C4948E-F, 1048576K
+10.30.99.5, SW-F8-West, 47 weeks 1 day 15 hours 47 minutes, 16.9.6, flash:packages.conf, FDO2202E0HX, WS-C3650-48PD, 832327K/6147K
+10.30.99.6, SW-F8-East, 28 weeks 4 days 1 hour 45 minutes, 16.9.6, flash:packages.conf, FDO2202Q0FE, WS-C3650-48PD, 832327K/6147K
+10.30.99.9, SW-F6-West, 45 weeks 2 days 18 hours 36 minutes, 17.3.3, flash:packages.conf, FOC2511L6VB, C9300-48P, 1331521K/6147K
+10.30.99.10, SW-F6-EAST, 45 weeks 3 days 45 minutes, 17.3.3, flash:packages.conf, FOC2511L6B8, C9300-48P, 1331521K/6147K
+10.30.99.11, sw-f5-west, 1 week 1 day 1 hour 26 minutes, 16.9.6, flash:packages.conf, FDO2019E1U4, WS-C3650-48PD, 832327K/6147K
+10.30.99.12, SW-F5-East, 1 week 2 days 19 hours 30 minutes, 16.9.6, flash:packages.conf, FDO2047E0ED, WS-C3650-48PD, 832327K/6147K
+10.30.99.13, SW-F4-West, 13 weeks 3 days 4 hours 12 minutes, 17.3.3, flash:packages.conf, FOC2511L75R, C9300-48P, 1331521K/6147K
+10.30.99.14, SW-F4-East, 13 weeks 3 days 22 hours 23 minutes, 17.3.3, flash:packages.conf, FOC2511L74N, C9300-48P, 1331521K/6147K
+10.30.99.15, SW-F3-West, 16 weeks 2 days 4 hours 35 minutes, 17.3.3, flash:packages.conf, FOC2511L79R, C9300-48P, 1331521K/6147K
+10.30.99.16, SW-F3-East, 16 weeks 2 days 4 hours 35 minutes, 17.3.3, flash:packages.conf, FOC2511L72Z, C9300-48P, 1331521K/6147K
+10.30.99.20, SW-GF, 42 weeks 3 days 36 minutes, 16.9.6, flash:packages.conf, FDO2019Q0R0, WS-C3650-48PD, 832327K/6147K
+10.30.99.21, sw-mz, 1 year 47 weeks 4 days 14 hours 30 minutes, 16.9.6, flash:packages.conf, FDO2019Q0VJ, WS-C3650-48PD, 832327K/6147K
+10.30.99.22, SW-B1, 47 weeks 1 day 15 hours 48 minutes, 16.9.6, flash:packages.conf, FDO2019E1U6, WS-C3650-48PD, 832327K/6147K
+10.30.99.24, SW-B2, 47 weeks 1 day 15 hours 48 minutes, 16.9.6, flash:packages.conf, FDO2202E0HW, WS-C3650-48PD, 832327K/6147K
+10.30.99.25, SW-B1-VIP, 47 weeks 1 day 15 hours 48 minutes, 16.9.6, flash:packages.conf, FDO2019Q0VQ, WS-C3650-48PD, 832327K/6147K
+10.30.99.26, SW-B1-CR2, 41 weeks 3 days 1 hour 57 minutes, 16.9.6, flash:packages.conf, FDO2019Q0VH, WS-C3650-48PD, 832327K/6147K
+10.30.99.27, SW-DC-05, 2 years 5 weeks 4 days 22 hours 54 minutes, 16.12.4, flash:packages.conf, FCW2247D0RB, C9300-48P, 1343576K/6147K
+10.30.99.28, SW-F7-EAST, 47 weeks 1 day 15 hours 48 minutes, 17.3.3, flash:packages.conf, FJB2340B085, C9300-48P, 1331521K/6147K
+10.30.99.29, SW-F7-West, 47 weeks 1 day 15 hours 49 minutes, 17.3.3, flash:packages.conf, FCW2247C0RR, C9300-48P, 1331521K/6147K
