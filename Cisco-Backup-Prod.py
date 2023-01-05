@@ -9,7 +9,7 @@ password = 'UNescwa@##'
 time_now  = datetime.datetime.now().strftime('%Y_%m_%d')
 parent_directory = "c:\\Users\\Roy\\Documents\\"
 backup_directory = parent_directory + time_now + "\\"
-devicelist = "ESCWA-SW-List.txt"
+devicelist = "SW-List.txt"
 port=22
 dir = os.path.join(parent_directory, backup_directory)
 if not os.path.exists(dir):
