@@ -11,12 +11,10 @@ time_now  = datetime.datetime.now().strftime('%Y_%m_%d')
 port=22
 parent_directory = "c:\\Users\\Roy\\Documents\\"
 backup_directory = parent_directory + time_now + "\\"
-#deviceList = "ESCWA_Dev_List.txt"
 swdetails = "sw_details.csv"
 issues = "login_issues.csv"
 
 # here is list of cisco routers ip addresses
-#ip_list = ['10.30.99.1', '10.30.99.200']
 ip_list = open("ESCWA-SW-List.txt").read().splitlines()
 print(ip_list)
 

@@ -3,28 +3,27 @@ import datetime
 import sys
 import os
 
-
-
 # define variables
 user = 'cisco_backup'
 password = 'UNescwa@##'
-#time_now  = datetime.datetime.now().strftime('%Y_%m_%d_%H_%M_%S')
 time_now  = datetime.datetime.now().strftime('%Y_%m_%d')
-filepath = "c:\\Users\\Roy\\Documents\\"
+parent_directory = "c:\\Users\\Roy\\Documents\\"
+backup_directory = parent_directory + time_now + "\\"
 devicelist = "ESCWA-SW-List.txt"
 port=22
-
-
+dir = os.path.join(parent_directory, backup_directory)
+if not os.path.exists(dir):
+       os.mkdir(dir)
 
 def main():
-    if not os.path.isfile(filepath+devicelist):
-        print("File path {} does not exist. Exiting...".format(filepath+devicelist))
+    if not os.path.isfile(parent_directory+devicelist):
+        print("File path {} does not exist. Exiting...".format(parent_directory+devicelist))
         sys.exit()
     # open device file
-    input_file = open(filepath + devicelist, "r")
+    input_file = open(parent_directory + devicelist, "r")
     iplist = input_file.readlines()
     input_file.close()
-    with open(filepath+devicelist) as file:
+    with open(parent_directory + devicelist) as file:
         for ipaddr in file:
             ipaddr = ipaddr.strip()
             sw_backup(ipaddr)
@@ -38,7 +37,8 @@ def sw_backup(ipaddr):
         ssh.connect(ipaddr, port, user, password, look_for_keys=False)
         stdin, stdout, stderr = ssh.exec_command('show run')
         list = stdout.readlines()
-        outfile = open(filepath + ipaddr + "_" + time_now + ".txt", "w")
+        outfile = open(backup_directory + ipaddr + "_" + time_now + ".txt", "w")
+
         for char in list:
             outfile.write(char)
         ssh.close()
