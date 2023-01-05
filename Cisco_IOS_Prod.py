@@ -15,7 +15,7 @@ swdetails = "sw_details.csv"
 issues = "login_issues.csv"
 
 # here is list of cisco routers ip addresses
-ip_list = open("ESCWA-SW-List.txt").read().splitlines()
+ip_list = open("SW-List.txt").read().splitlines()
 print(ip_list)
 
 # list where informations will be stored
